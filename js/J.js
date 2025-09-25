@@ -1,5 +1,5 @@
 //19. Dado un arreglo de tareas, usa splice() para insertar "nuevo tarea" en la segunda posicion
-
+// julian Paz Cortez Arcos
 // Arreglo inicial de tareas
 let tareas = ["Estudiar JavaScript", "Hacer ejercicio", "Comprar víveres", "Llamar al médico"];
 
