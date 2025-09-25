@@ -6,3 +6,4 @@ console.log(mayorQue50); // 51
 
 
 // por fin , calificado
+//graciasss!!!!
