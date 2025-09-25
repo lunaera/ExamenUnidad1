@@ -15,4 +15,4 @@ if (contieneNumero(numeros, 100)) {
   console.log("El arreglo NO contiene el número 100 ");
 }
 
-// ejercicio resuelto por Irving LOPEZ GALVAN 
+// ejercicio resuelto por Irving LOPEZ GALVAN
