@@ -18,3 +18,6 @@ const caros = productos.filter(p => p.precio > 100);
 
 console.log("Productos con precio mayor a $100:");
 console.table(caros);
+
+
+// Excelente Demetrio

@@ -8,3 +8,5 @@ frutas.sort();
 
 
 console.log(frutas);
+
+// no salió pero bueno xD!
