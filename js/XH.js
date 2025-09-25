@@ -8,4 +8,7 @@ console.log(nuevos); // ["cerrado", "archivado"]
 
 /*
 Mi nombre es Ximena
+
+suponiendo que ya te califico
+
 */
