@@ -1,10 +1,7 @@
 let estados = ["activo", "pendiente", "completado"];
 
-// Reemplazar los dos últimos elementos con "cerrado" y "archivado"
+// Reemplazar y guardar los nuevos elementos
 estados.splice(1, 2, "cerrado", "archivado");
+let nuevos = estados.slice(1);
 
-// Mostrar solo los nuevos elementos
-console.log(estados.slice(1)); // ["cerrado", "archivado"]
-
-
-
+console.log(nuevos); // ["cerrado", "archivado"]
