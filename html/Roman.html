@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen unidad 1</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1>Examen unidad 1</h1>
+    <form action="procesar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+
+    <h2>Ejemplo de uso de slice()</h2>
+    <p id="resultado" class="alert alert-info"></p>
+    </div>
+
+    <script>
+        const arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const mitad1 = arreglo.slice(0, arreglo.length / 2);
+        const mitad2 = arreglo.slice(arreglo.length / 2);
+
+        document.getElementById("resultado").innerHTML =
+            "Primera mitad: " + mitad1.join(", ") + "<br>" +
+            "Segunda mitad: " + mitad2.join(", ");
+    </script>
+</body>
+
+</html>
