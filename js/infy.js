@@ -10,3 +10,7 @@ frutas.splice(2, 1);
 
 // Mostrar el arreglo modificado
 console.log("Arreglo modificado:", frutas);
+
+
+
+// perfecto Diego novio de Jaz!

@@ -10,3 +10,7 @@ nombres.reverse();
 
 console.log("\nOrden invertido:");
 console.log(nombres);
+
+
+
+// muy bien Jaz novia de Diego
