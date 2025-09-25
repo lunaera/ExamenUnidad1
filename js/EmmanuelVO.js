@@ -10,4 +10,6 @@ const productos = [
 const hayAlgunoGratis = productos.some(producto => producto.precio === 0);
 
 
-console.log(hayAlgunoGratis); 
+console.log(hayAlgunoGratis);
+
+// calificado Emmanuel VO
