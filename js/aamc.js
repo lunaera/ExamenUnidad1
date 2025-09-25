@@ -7,3 +7,6 @@ const tieneArroba = correos.every(arroba);
 
 console.log(tieneArroba);
 
+
+
+// Listo Alejandro Morales, calificado
