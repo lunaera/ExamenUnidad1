@@ -10,4 +10,4 @@ const promedio = suma / calificaciones.length;
 console.log(`El promedio de las calificaciones es: ${promedio}`);
 
 
-// Excelente chico rebelde!!
+// excelente chico rebelde!!
