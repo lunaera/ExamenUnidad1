@@ -3,4 +3,7 @@ const ultimosDos = numeros.slice(-2);
 console.log(ultimosDos);
 console.log(numeros);
 
-//Francisco Fermin 
+//Francisco Fermin
+
+
+// muy bien FranciscoPaco
