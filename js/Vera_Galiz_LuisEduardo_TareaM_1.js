@@ -8,3 +8,6 @@ const suma = calificaciones.reduce((acumulador, calificacionActual) => acumulado
 const promedio = suma / calificaciones.length;
 
 console.log(`El promedio de las calificaciones es: ${promedio}`);
+
+
+// excelente chico rebelde!!
