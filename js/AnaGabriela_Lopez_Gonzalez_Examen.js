@@ -7,3 +7,5 @@ const usuarios = [
 const primerActivo = usuarios.find(usuario => usuario.activo === true);
 
 console.log("Primer usuario activo:", primerActivo);
+
+// muy bien ana gabriela
