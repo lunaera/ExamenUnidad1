@@ -5,3 +5,8 @@ const edades = [15, 22, 30];
 const mayoresDeEdad = edades.filter(edad => edad >= 18);
 
 console.log("Mayores de edad:", mayoresDeEdad);
+
+
+
+
+// Muy bien chica desesperada XD!!

@@ -10,3 +10,7 @@ const resultado = valores.filter(Boolean);
 
 // 3. Mostrar el resultado en la consola del navegador
 console.log("Arreglo filtrado:", resultado);
+
+
+
+// Muy buen wicho amigo del chico rebelde!!
