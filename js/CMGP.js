@@ -4,3 +4,7 @@
 const palabras = ["uno", "dos", "tres"];
 const resultado = palabras.join("-");
 console.log(resultado);
+
+
+
+// Muy bien chica de la Moto
