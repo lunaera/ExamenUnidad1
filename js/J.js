@@ -12,3 +12,5 @@ tareas.splice(1, 0, "nueva tarea");
 
 console.log("\nArreglo después de insertar 'nueva tarea' en la segunda posición:");
 console.log(tareas);
+
+// Excelente Julian

@@ -28,6 +28,22 @@
 
         <input type="submit" value="Enviar">
     </form>
+
+    <hr>
+
+    <h2>Ejemplo de uso de slice()</h2>
+    <p id="resultado" class="alert alert-info"></p>
+    </div>
+
+    <script>
+        const arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        const mitad1 = arreglo.slice(0, arreglo.length / 2);
+        const mitad2 = arreglo.slice(arreglo.length / 2);
+
+        document.getElementById("resultado").innerHTML =
+            "Primera mitad: " + mitad1.join(", ") + "<br>" +
+            "Segunda mitad: " + mitad2.join(", ");
+    </script>
 </body>
 
 </html>

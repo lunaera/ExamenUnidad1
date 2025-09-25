@@ -5,3 +5,8 @@ const resultado = palabras.reduce((acumulador, palabra) => {
 });
 
 console.log(resultado); // "Hola mundo JS"
+
+
+
+
+// muy bien!!
