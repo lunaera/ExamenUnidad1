@@ -1,20 +1,13 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
+const numeros = [1, 2, -3, 4, 5];
+const hayNegativo = numeros.some(numero => numero < 0);
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+console.log(hayNegativo); // Devuelve true porque hay un -3 en el arreglo
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
-
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+//soy Cesar Alejandro Martinez Chavez
 
 
-// calificado coronel, muy bien !
+
+// calificado cesar martínez, vaya vaya por fin!!
 
 /*
     instrucciones:
@@ -26,4 +19,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

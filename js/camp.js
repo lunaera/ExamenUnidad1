@@ -1,20 +1,16 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+//dado un arreglo de 5 elementos, usa fill () para reemplazar todos los valores por "x"
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
+let arr = [1, 2, 3, 4, 5];
+arr.fill("x");
+console.log(arr); // ["x", "x", "x", "x", "x"]
 
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+//Cesar Adair Martinez Parra
 
 
-// calificado coronel, muy bien !
+// excelente césar
+
+// calificado cesar martínez, vaya vaya por fin!!
 
 /*
     instrucciones:
@@ -26,4 +22,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

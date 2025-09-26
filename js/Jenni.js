@@ -1,20 +1,15 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
-
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
-
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+let numeros = [1.2, 3.7, 4.5];
 
 
-// calificado coronel, muy bien !
+let redondeados = numeros.map(num => Math.round(num));
+
+
+console.log("Original:", numeros);
+console.log("Redondeados:", redondeados);
+
+
+// calificado jennifer, termina tu ejercicio con las indicaciones de abajo y me espera para la siguiente isntruccion
 
 /*
     instrucciones:
@@ -26,4 +21,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

@@ -1,20 +1,14 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
-
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
-
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
-
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+// arreglo de colores
+let colores = ["rojo", "verde", "azul", "amarillo"];
 
 
-// calificado coronel, muy bien !
+let primerosTres = colores.slice(0, 3);
+
+
+console.log(primerosTres);
+
+
+// calificado sabdiel, futuro ingeniero
 
 /*
     instrucciones:
@@ -26,4 +20,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

@@ -1,20 +1,13 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
+const nombres = ["David", "Ana", "Dulce", "Alberto", "María"];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+const primerNombreConA = nombres.find(nombre => nombre.startsWith("A"));
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
-
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+console.log(primerNombreConA); // "Ana"
 
 
-// calificado coronel, muy bien !
+
+
+// vaya vaya dulce, que barbaridad!! calificado!!
 
 /*
     instrucciones:
@@ -26,4 +19,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

@@ -1,20 +1,22 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
+const edades = [20, 17, 22, 15];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+const todosMayores = edades.every(edad => edad > 18);
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
+if (todosMayores) {
+    console.log("Todos son mayores de 18");
+} else {
+    const menores = edades.filter(edad => edad <= 18);
+    console.log("No todos son mayores de 18");
+    console.log("Edades que no cumplen:", menores);
+}
 
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+//David Medel Vera
 
 
-// calificado coronel, muy bien !
+
+
+// calificado deivis!!
+
 
 /*
     instrucciones:
@@ -26,4 +28,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

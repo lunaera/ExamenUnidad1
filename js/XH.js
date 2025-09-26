@@ -1,20 +1,20 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
+let estados = ["activo", "pendiente", "completado"];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+// Reemplazar y guardar los nuevos elementos
+estados.splice(1, 2, "cerrado", "archivado");
+let nuevos = estados.slice(1);
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
+console.log(nuevos); // ["cerrado", "archivado"]
 
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+/*
+Mi nombre es Ximena
+
+suponiendo que ya te califico
+
+*/
 
 
-// calificado coronel, muy bien !
+// como que suponiendo, ahora si ya te califiqué
 
 /*
     instrucciones:
@@ -26,4 +26,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main

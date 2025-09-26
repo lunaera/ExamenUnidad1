@@ -1,20 +1,16 @@
-// Arreglo de temperaturas en Celsius
-const celsius = [0, 20, 30];
+const usuarios = [
+    { nombre: "Ana", archivo: "archivo1.txt", activo: false },
+    { nombre: "Jared", archivo: "archivo2.txt", activo: true },
+    { nombre: "Luis", archivo: "archivo3.txt", activo: true }
+];
 
-// Convertimos a Fahrenheit usando map()
-const fahrenheit = celsius.map(temp => (temp * 9 / 5) + 32);
+const primerActivo = usuarios.find(usuario => usuario.activo === true);
 
-// Mostramos el resultado
-console.log("Temperaturas en Celsius: ", celsius);
-console.log("Temperaturas en Fahrenheit: ", fahrenheit);
+console.log("Primer usuario activo:", primerActivo);
 
-//Coronel Reyes Jesus
-<<<<<<< HEAD
-git
-=======
+// muy bien ana gabriela
 
-
-// calificado coronel, muy bien !
+// calificado cesar martínez, vaya vaya por fin!!
 
 /*
     instrucciones:
@@ -26,4 +22,3 @@ git
         b) evidencia del main2 (el otro archivo que actualizaste)
         c) evidencia de tu repositorio donde igualmente se vea lo que te califiqué
 */
->>>>>>> main
