@@ -1,17 +1,15 @@
-// Alberto Alejandro Morales Caballero
-const correos = ["a@b.com", "c@d.com"];
 
-const arroba = (element) => element.includes('@');
-
-const tieneArroba = correos.every(arroba);
-
-console.log(tieneArroba);
+let numeros = [1.2, 3.7, 4.5];
 
 
+let redondeados = numeros.map(num => Math.round(num));
 
-// Listo Alejandro Morales, calificado
+
+console.log("Original:", numeros);
+console.log("Redondeados:", redondeados);
 
 
+// calificado jennifer, termina tu ejercicio con las indicaciones de abajo y me espera para la siguiente isntruccion
 
 /*
     instrucciones:
