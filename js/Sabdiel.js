@@ -1,17 +1,14 @@
-// Alberto Alejandro Morales Caballero
-const correos = ["a@b.com", "c@d.com"];
-
-const arroba = (element) => element.includes('@');
-
-const tieneArroba = correos.every(arroba);
-
-console.log(tieneArroba);
+// arreglo de colores
+let colores = ["rojo", "verde", "azul", "amarillo"];
 
 
+let primerosTres = colores.slice(0, 3);
 
-// Listo Alejandro Morales, calificado
+
+console.log(primerosTres);
 
 
+// calificado sabdiel, futuro ingeniero
 
 /*
     instrucciones:
